@@ -15,5 +15,9 @@ namespace homework2_POM.Pages.DraggablePage
                 return this.Driver.FindElement(By.Id("draggable"));
             }
         }
+        // New record way
+        // public IWebElement DraggableElement => this.Driver.FindElement(By.Id("draggable"));
+
+
     }
 }
